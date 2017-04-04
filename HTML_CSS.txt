@@ -39,12 +39,23 @@
 
 <a href=#><img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute oranfe cat lying 	on its back."></a>
 
-<p class="red-text">
-	Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red 		dot, hairball run catnip eat the grass sniff.
-</p>
+<p>Things cats love:</p>
+<ul>
+	<li>rats</li>
+	<li>birds</li>
+	<li>butterfly</>
+</ul>
 
-<p class="red-text">
-	Purr jumnp eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink 	fluffy fur catnip scratched.
-</p>
+<p>Things cats hate:</p>
+<ol>
+	<li>dogs</li>
+	<li>cars</li>
+	<li>humans</li>
+</ol>
 
-
+<!--Web form-->
+<form action="/submit-cat-photo">
+<p>Enter text here:</p>
+<!--Creates a text box for user input-->
+<input type="text" placeholder="cat photo URL">
+</form>
