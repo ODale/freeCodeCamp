@@ -37,7 +37,9 @@
 	View more <a href=#>cat photos</a>	
 </p>
 
-<a href=#><img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute oranfe cat lying 	on its back."></a>
+<a href=#>
+	<img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute oranfe cat 	lying on its back.">
+</a>
 
 <p>Things cats love:</p>
 <ul>
@@ -55,7 +57,11 @@
 
 <!--Web form-->
 <form action="/submit-cat-photo">
-<p>Enter text here:</p>
-<!--Creates a text box for user input-->
-<input type="text" placeholder="cat photo URL">
+	<p>Enter text here:</p>
+	<!--Creates a text box for user input-->
+	<label><input type="radio" name="indoor-outdoor">Indoor</label>
+	<label><input type="radio" name="indoor-outdoor">Outdoor</label>
+	<input type="text" placeholder="cat photo URL" required>
+	<button type="submit">Submit
+	</button>
 </form>
