@@ -1,0 +1,61 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="test/css">
+
+<style>
+	.red-text
+	{
+		color:red;	
+	}
+	
+	.smaller-image
+	{
+		width:100px;
+	}
+
+	h2
+	{
+		font-family: Lobster, Monospace;
+	}
+
+	p
+	{
+		font-size: 16px;
+		font-family:Monospace;
+	}
+
+	.thick-green-border
+	{
+		border-color: green;
+		border-width: 10px;
+		border-style: solid;
+		border-radius: 50%;
+	}
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>
+	View more <a href=#>cat photos</a>	
+</p>
+
+<a href=#><img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute oranfe cat lying 	on its back."></a>
+
+<p>Things cats love:</p>
+<ul>
+	<li>rats</li>
+	<li>birds</li>
+	<li>butterfly</>
+</ul>
+
+<p>Things cats hate:</p>
+<ol>
+	<li>dogs</li>
+	<li>cars</li>
+	<li>humans</li>
+</ol>
+
+<!--Web form-->
+<form action="/submit-cat-photo">
+<p>Enter text here:</p>
+<!--Creates a text box for user input-->
+<input type="text" placeholder="cat photo URL">
+</form>
