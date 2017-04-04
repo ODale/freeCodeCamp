@@ -47,7 +47,6 @@
 	<li>birds</li>
 	<li>butterfly</>
 </ul>
-
 <p>Things cats hate:</p>
 <ol>
 	<li>dogs</li>
@@ -59,8 +58,11 @@
 <form action="/submit-cat-photo">
 	<p>Enter text here:</p>
 	<!--Creates a text box for user input-->
-	<label><input type="radio" name="indoor-outdoor">Indoor</label>
+	<label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
 	<label><input type="radio" name="indoor-outdoor">Outdoor</label>
+	<label><input type="checkbox" name="personality" checked>Loving</label>
+	<label><input type="checkbox" name="personality">Lazy</label>
+	<label><input type="checkbox" name="personality">Energetic</label>
 	<input type="text" placeholder="cat photo URL" required>
 	<button type="submit">Submit
 	</button>
